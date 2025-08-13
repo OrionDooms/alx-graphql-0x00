@@ -1,9 +1,8 @@
-# Write a Query to Get a Specific Character by ID
+# Character Queries
 
 Use the following Endpoint
 
-## Instructions:
-Write a GraphQL query using the character(id: ID!) field to fetch the details of a character. Use ids 1, 2, 3, 4
+The instruction was to write a GraphQL query using the character(id: ID!) field to fetch the details of a character. Use ids 1, 2, 3, 4
 Include the following fields in your query: id, name, status, species, type, gender
 
 ## Files
@@ -16,10 +15,9 @@ Include the following fields in your query: id, name, status, species, type, gen
 - `character-id-4.graphq1` - Query for character with ID 4
 - `character-id-4-output.json` - Output for ID 4
 
-## Write a Query to Get a List of All Characters
+## List of All Characters Queries
 
-## Instructions:
-Write a GraphQL query using the characters(page: Int) field to fetch the list of characters. For page 1, 2, 3, 4
+The instruction was to write a GraphQL query using the characters(page: Int) field to fetch the list of characters. For page 1, 2, 3, 4
 Select the subfields: id, name, status, and image.
 
 ## Files
